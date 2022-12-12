@@ -1,7 +1,8 @@
 import React from "react";
+import { Typography } from "@mui/material";
 
 const App = () => {
-    return <div>Chuck Norris</div>;
+    return <Typography>Chuck Norris</Typography>;
 };
 
 export default App;
