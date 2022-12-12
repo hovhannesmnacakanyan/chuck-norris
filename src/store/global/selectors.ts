@@ -1,6 +1,7 @@
 import { createSelector } from "reselect";
+import { RootState } from "../configureStore";
 
-const globalSelector = (state) => state.global;
+const globalSelector = (state: RootState) => state.global;
 
 const jokeSelector = createSelector([globalSelector], (global) => global.joke);
 
